@@ -40,10 +40,10 @@ else
 _leave = false;
 
 {
-if ((typeOf _x == staticCrewTeamPlayer) or (typeOf _x == SDKUnarmed) or (typeOf _x in arrayCivs) or (!alive _x)) exitWith {_leave = true}
+if (/*(typeOf _x == staticCrewTeamPlayer) or */(typeOf _x == SDKUnarmed) or (typeOf _x in arrayCivs) or (!alive _x)) exitWith {_leave = true}
 } forEach _unitsX;
 
-if (_leave) exitWith {hint "Static crewman, prisoners, refugees or dead units cannot be added to any garrison"};
+if (_leave) exitWith {hint /*"Static crewman,*/ "Prisoners, refugees or dead units cannot be added to any garrison"};
 
 if ((groupID _groupX == "MineF") or (groupID _groupX == "Watch") or (isPlayer(leader _groupX))) exitWith {hint "You cannot garrison player led, Watchpost, Roadblocks or Minefield building squads"};
 
@@ -160,4 +160,3 @@ else
 	theBoss hcSetGroup [_groupX];
 	hint format ["Group %1 is back to HC control because the zone which was pointed to garrison has been lost",groupID _groupX];
 	};
-
