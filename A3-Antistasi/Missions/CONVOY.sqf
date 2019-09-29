@@ -70,7 +70,7 @@ _displayTime = [_dateLimit] call A3A_fnc_dateToTimeString;//Converts the time po
 
 _nameDest = [_destinationX] call A3A_fnc_localizar;
 _nameOrigin = [_base] call A3A_fnc_localizar;
-[_base,30] call A3A_fnc_addTimeForIdle;
+[_base,5] call A3A_fnc_addTimeForIdle;
 
 _textX = "";
 _taskState = "CREATED";

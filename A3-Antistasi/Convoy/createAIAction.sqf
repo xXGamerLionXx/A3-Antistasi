@@ -390,7 +390,7 @@ if(_type == "convoy") then
 
       _nameDest = [_destination] call A3A_fnc_localizar;
       _nameOrigin = [_origin] call A3A_fnc_localizar;
-      [_origin, 30] call A3A_fnc_addTimeForIdle;
+      [_origin, 10] call A3A_fnc_addTimeForIdle;
 
       private ["_text", "_taskState", "_taskTitle", "_taskIcon", "_taskState1", "_typeVehEsc", "_typeVehObj", "_typeVehLead"];
 

@@ -53,7 +53,7 @@ if (not alive _official) then
 		[2400] remoteExec ["A3A_fnc_timingCA",2];
 		{if (isPlayer _x) then {[20,_x] call A3A_fnc_playerScoreAdd}} forEach ([500,0,_positionX,teamPlayer] call A3A_fnc_distanceUnits);
 		[10,theBoss] call A3A_fnc_playerScoreAdd;
-		[_markerX,60] call A3A_fnc_addTimeForIdle;
+		[_markerX,20] call A3A_fnc_addTimeForIdle;
 		}
 	else
 		{
@@ -61,7 +61,7 @@ if (not alive _official) then
 		[1800] remoteExec ["A3A_fnc_timingCA",2];
 		{if (isPlayer _x) then {[10,_x] call A3A_fnc_playerScoreAdd}} forEach ([500,0,_positionX,teamPlayer] call A3A_fnc_distanceUnits);
 		[5,theBoss] call A3A_fnc_playerScoreAdd;
-		[_markerX,30] call A3A_fnc_addTimeForIdle;
+		[_markerX,10] call A3A_fnc_addTimeForIdle;
 		};
 	["TaskFailed", ["", format ["Officer killed at %1",[_nameDest, false] call A3A_fnc_location]]] remoteExec ["BIS_fnc_showNotification",_sideX];
 	}
@@ -72,13 +72,13 @@ else
 		{
 		[-1200] remoteExec ["A3A_fnc_timingCA",2];
 		[-20,theBoss] call A3A_fnc_playerScoreAdd;
-		[_markerX,-60] call A3A_fnc_addTimeForIdle;
+		[_markerX,-20] call A3A_fnc_addTimeForIdle;
 		}
 	else
 		{
 		[-600] remoteExec ["A3A_fnc_timingCA",2];
 		[-10,theBoss] call A3A_fnc_playerScoreAdd;
-		[_markerX,-30] call A3A_fnc_addTimeForIdle;
+		[_markerX,-10] call A3A_fnc_addTimeForIdle;
 		};
 	};
 

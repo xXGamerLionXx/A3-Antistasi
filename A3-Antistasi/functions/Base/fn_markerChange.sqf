@@ -82,7 +82,7 @@ if (_markerX in airportsX) then
 	else
 		{
 		server setVariable [_markerX,dateToNumber date,true];
-		[_markerX,60] call A3A_fnc_addTimeForIdle;
+		[_markerX,20] call A3A_fnc_addTimeForIdle;
 		if (_winner == Occupants) then
 			{
 			[10,0,_positionX] remoteExec ["A3A_fnc_citySupportChange",2]
@@ -155,7 +155,7 @@ if (_markerX in resourcesX) then
 if (_winner == teamPlayer) then
 	{
 	[] call A3A_fnc_tierCheck;
-	
+
 	//Convert all of the static weapons to teamPlayer, essentially. Make them mannable by AI.
 	//Make the size larger, as rarely does the marker cover the whole outpost.
 	private _staticWeapons = nearestObjects [_positionX, ["StaticWeapon"], _size * 1.5, true];
@@ -165,7 +165,7 @@ if (_winner == teamPlayer) then
 		};
 	} forEach _staticWeapons;
 	publicVariable "staticsToSave";
-	
+
 	if (!isNull _flagX) then
 		{
 		//[_flagX,"remove"] remoteExec ["A3A_fnc_flagaction",0,_flagX];

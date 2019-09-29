@@ -202,7 +202,7 @@ _roads = [];
 if (_base != "") then
 	{
 	_airportX = "";
-	if (_base in outposts) then {[_base,60] call A3A_fnc_addTimeForIdle} else {[_base,30] call A3A_fnc_addTimeForIdle};
+	if (_base in outposts) then {[_base,10] call A3A_fnc_addTimeForIdle} else {[_base,5] call A3A_fnc_addTimeForIdle};
 	_indexX = airportsX find _base;
 	_spawnPoint = objNull;
 	_pos = [];
@@ -417,7 +417,7 @@ if (_base != "") then
 	}
 else
 	{
-	[_airportX,20] call A3A_fnc_addTimeForIdle;
+	[_airportX,4] call A3A_fnc_addTimeForIdle;
 	_vehPool = [];
 	_countX = if (!_super) then {if (_isMarker) then {2} else {1}} else {round ((tierWar + difficultyCoef) / 2) + 1};
 	_typeVehX = "";

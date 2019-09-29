@@ -787,7 +787,7 @@ sleep 30;
 _nul = [0,"rebelAttack"] spawn A3A_fnc_deleteTask;
 _nul = [0,"rebelAttackPVP"] spawn A3A_fnc_deleteTask;
 
-[_mrkOrigin,60] call A3A_fnc_addTimeForIdle;
+[_mrkOrigin,20] call A3A_fnc_addTimeForIdle;
 bigAttackInProgress = false; publicVariable "bigAttackInProgress";
 //forcedSpawn = forcedSpawn - _forced; publicVariable "forcedSpawn";
 forcedSpawn = forcedSpawn - [_mrkDestination]; publicVariable "forcedSpawn";
