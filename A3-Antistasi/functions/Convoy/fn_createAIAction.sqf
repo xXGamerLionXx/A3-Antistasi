@@ -65,6 +65,7 @@ else
 if(_abort) exitWith {diag_log format ["CreateAIAction[%1]: Aborting creation of AI action because, there is already a action close by!", _convoyID]};
 
 //TODO rebalance that somehow
+/*
 _allUnits = {(local _x) and (alive _x)} count allUnits;
 _allUnitsSide = 0;
 _maxUnitsSide = maxUnits;
@@ -77,6 +78,7 @@ if (gameMode <3) then
 if ((_allUnits + 4 > maxUnits) or (_allUnitsSide + 4 > _maxUnitsSide)) then {_abort = true};
 
 if (_abort) exitWith {diag_log format ["CreateAIAction[%1]: AI action cancelled because of reaching the maximum of units on attacking %2", _convoyID, _destination]};
+*/
 
 
 _destinationPos = if(_isMarker) then {getMarkerPos _destination} else {_destination};
