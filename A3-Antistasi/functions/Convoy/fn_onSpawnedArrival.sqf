@@ -1,5 +1,6 @@
 params ["_convoyID", "_unitObjects", "_convoyPos", "_target", "_markerArray", "_convoyType", "_convoySide"];
 
+server setVariable [str _convoyID, nil, true];
 switch (_convoyType) do
 {
   case ("reinforce"):
