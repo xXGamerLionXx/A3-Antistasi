@@ -17,6 +17,8 @@ private _crewGroups = [];
 
 private _groupName = groupId group (_crew select 0 select 0);
 
+diag_log format ["Crew is %1, driver group is %2", str _crew, str _groupName];
+
 {
 	private _unit = _x select 0;
 	private _group = createGroup [side _unit, true];
