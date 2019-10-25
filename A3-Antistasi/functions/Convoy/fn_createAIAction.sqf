@@ -68,7 +68,7 @@ else
 };
 if(_abort) exitWith
 {
-  diag_log format ["CreateAIAction[%1]: Aborting creation of AI action because, there is already a action close by!", _convoyID]
+  diag_log format ["CreateAIAction[%1]: Aborting creation of AI action because, there is already a action close by!", _convoyID];
   server setVariable [str _convoyID, nil, true];
 };
 
