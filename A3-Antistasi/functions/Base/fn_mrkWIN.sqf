@@ -13,12 +13,21 @@ if ((!isNull _playerX) and (captive _playerX)) exitWith {hint "You cannot Captur
 if ((_markerX in airportsX) and (tierWar < 3)) exitWith {hint "You cannot capture Airports until you reach War Level 3"};
 _revealX = [];
 
+//Check if the flag is locked
 if(_flagX getVariable ["isGettingCaptured", false]) exitWith
 {
-	hint "This flag is currently getting captured by someone else";
+	hint "This flag pole is locked, try again in 30 seconds!";
 };
 
+//Lock the flag
 _flagX setVariable ["isGettingCaptured", true, true];
+
+//Unlock the flag after 30 seconds
+_flagX spawn
+{
+	sleep 30;
+	_this setVariable ["isGettingCaptured", nil, true];
+};
 
 if (!isNull _playerX) then
 {
@@ -47,8 +56,7 @@ if (!isNull _playerX) then
 
 if ((count _revealX) > 2*({([_x,_markerX] call A3A_fnc_canConquer) and (side _x == teamPlayer)} count allUnits)) exitWith
 {
-	_flagX setVariable ["isGettingCaptured", nil, true];
-	hint "The enemy still outnumber us, check the map and clear the rest of the area"
+	hint "The enemy still outnumber us, check the map and clear the rest of the area";
 };
 //if (!isServer) exitWith {};
 
