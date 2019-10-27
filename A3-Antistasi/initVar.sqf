@@ -22,6 +22,11 @@ incomeRep = false;												//
 maxUnits = 140;												//
 
 ////////////////////////////////////
+//     PERFORMANCE ARRAY          //
+////////////////////////////////////
+performance = [];
+
+////////////////////////////////////
 //     BEGIN SIDES AND COLORS    ///
 ////////////////////////////////////
 diag_log format ["%1: [Antistasi] | INFO | initVar | Generating Sides.",servertime];
