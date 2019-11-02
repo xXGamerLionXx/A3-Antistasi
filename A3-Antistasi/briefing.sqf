@@ -85,7 +85,6 @@ player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry
 player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Diary_3"],format [localize "STR_antistasi_journal_entry_text_Diary_3"]]];
 player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Diary_2"],format [localize "STR_antistasi_journal_entry_text_Diary_2"]]];
 player createDiaryRecord ["Diary",[format [Localize "STR_antistasi_journal_entry_header_Diary_1",nameOccupants,nameInvaders],format [Localize "STR_antistasi_journal_entry_header_Diary_1",nameOccupants,nameInvaders,nameTeamPlayer,worldName]]];
-}
 
 //Mission Specific stuff, fuck this code.
 switch (gameMode) do
@@ -107,3 +106,5 @@ _index =player createDiarySubject ["Credits","Credits"];
 player createDiaryRecord ["Credits",[format [localize "STR_antistasi_journal_entry_header_Credits_3"],format [localize "STR_antistasi_journal_entry_text_Credits_3"]]];
 player createDiaryRecord ["Credits",[format [localize "STR_antistasi_journal_entry_header_Credits_2"],format [localize "STR_antistasi_journal_entry_text_Credits_2"]]];
 player createDiaryRecord ["Credits",[format [localize "STR_antistasi_journal_entry_header_Credits_1"],format [localize "STR_antistasi_journal_entry_text_Credits_1"]]];
+
+}
