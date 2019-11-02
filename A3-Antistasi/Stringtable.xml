@@ -1038,7 +1038,7 @@
         <Original>Flag: Vehicle and Squad Unit Recruitment. Commander Options.&lt;br/&gt;Maru: Side-missions (Commander Only).&lt;br/&gt;Map: Game Options.&lt;br/&gt;Camp-fire: Rest for 8 hours and Clear Forest (Commander Only).</Original>
       </Key>
       <Key ID="STR_antistasi_journal_entry_header_gamemode">
-        <Original>AI ROE</Original>
+        <Original>AI Rules of Engagement</Original>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_gamemode_1">
         <Original>%2 vs %1 war.</Original>
@@ -1052,7 +1052,6 @@
       <Key ID="STR_antistasi_journal_entry_text_gamemode_4">
         <Original>All vs All war.&lt;br/&gt;&lt;br/&gt;%1 and %2 will attack each other and both to %3.</Original>
       </Key>
-
       <Key ID="STR_antistasi_journal_entry_header_Default_1">
         <Original>Welcome</Original>
       </Key>
@@ -1065,15 +1064,12 @@
       <Key ID="STR_antistasi_journal_entry_text_Default_2">
         <Original>You will win the game when most of the population supports Faction and you have conquered all the Airbases.</Original>
       </Key>
-      <Key ID="STR_antistasi_journal_entry_header_Defaults_3">
+      <Key ID="STR_antistasi_journal_entry_header_Default_3">
         <Original>Lose</Original>
       </Key>
       <Key ID="STR_antistasi_journal_entry_text_Default_3">
         <Original>You will loose the game if %1 has murdered 1/3 of the total population.</Original>
       </Key>
-
-
-
       <Key ID="STR_antistasi_journal_entry_header_Credits_1">
         <Original>Script Credits</Original>
       </Key>

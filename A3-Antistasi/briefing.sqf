@@ -39,11 +39,6 @@ player createDiaryRecord ["SpecialK",[format [localize "STR_antistasi_journal_en
 
 
 _index =player createDiarySubject ["Features","Features Detail"];
-if (!isNil "serverID") then {
-	player createDiaryRecord ["Features",[format [localize "STR_antistasi_journal_entry_header_Features_15"],format [localize "STR_antistasi_journal_entry_text_Features_15"]]];
-	player createDiaryRecord ["Features",[format [localize "STR_antistasi_journal_entry_header_Features_14"],format [localize "STR_antistasi_journal_entry_text_Features_14"]]];
-	player createDiaryRecord ["Features",[format [localize "STR_antistasi_journal_entry_header_Features_13"],format [localize "STR_antistasi_journal_entry_text_Features_13"]]];
-	};
 player createDiaryRecord ["Features",[format [localize "STR_antistasi_journal_entry_header_Features_12"],format [localize "STR_antistasi_journal_entry_text_Features_12"]]];
 player createDiaryRecord ["Features",[format [localize "STR_antistasi_journal_entry_header_Features_11"],format [localize "STR_antistasi_journal_entry_text_Features_11"]]];
 player createDiaryRecord ["Features",[format [localize "STR_antistasi_journal_entry_header_Features_10"],format [localize "STR_antistasi_journal_entry_text_Features_10"]]];
@@ -84,27 +79,45 @@ player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry
 player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Diary_4"],format [localize "STR_antistasi_journal_entry_text_Diary_4"]]];
 player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Diary_3"],format [localize "STR_antistasi_journal_entry_text_Diary_3"]]];
 player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Diary_2"],format [localize "STR_antistasi_journal_entry_text_Diary_2"]]];
-player createDiaryRecord ["Diary",[format [Localize "STR_antistasi_journal_entry_header_Diary_1",nameOccupants,nameInvaders],format [Localize "STR_antistasi_journal_entry_header_Diary_1",nameOccupants,nameInvaders,nameTeamPlayer,worldName]]];
+player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Diary_1",nameOccupants,nameInvaders],format [localize "STR_antistasi_journal_entry_text_Diary_1",nameOccupants,nameInvaders,nameTeamPlayer,worldName]]];
 
-//Mission Specific stuff, fuck this code.
-switch (gameMode) do
-	{
-	case 1: {player createDiaryRecord ["Diary",[format [Localize "STR_antistasi_journal_entry_header_gamemode"],format [Localize "STR_antistasi_journal_entry_text_gamemode_4",nameOccupants,nameInvaders,nameTeamPlayer]]]};
-	case 2: {player createDiaryRecord ["Diary",[format [Localize "STR_antistasi_journal_entry_header_gamemode"],format [Localize "STR_antistasi_journal_entry_text_gamemode_3",nameOccupants,nameInvaders,nameTeamPlayer]]]};
-	case 3: {player createDiaryRecord ["Diary",[format [Localize "STR_antistasi_journal_entry_header_gamemode"],format [Localize "STR_antistasi_journal_entry_text_gamemode_2",nameOccupants,nameTeamPlayer]]]};
-	case 4: {player createDiaryRecord ["Diary",[format [Localize "STR_antistasi_journal_entry_header_gamemode"],format [Localize "STR_antistasi_journal_entry_text_gamemode_1",nameInvaders,nameTeamPlayer]]]};
+//Multiplayer Specific Options, these will only show when the game is loaded via Multiplayer.
+	if (!isNil "serverID") then {
+	//MP Features
+		player createDiaryRecord ["Features",[format [localize "STR_antistasi_journal_entry_header_Features_15"],format [localize "STR_antistasi_journal_entry_text_Features_15"]]];
+		player createDiaryRecord ["Features",[format [localize "STR_antistasi_journal_entry_header_Features_14"],format [localize "STR_antistasi_journal_entry_text_Features_14"]]];
+		player createDiaryRecord ["Features",[format [localize "STR_antistasi_journal_entry_header_Features_13"],format [localize "STR_antistasi_journal_entry_text_Features_13"]]];
+
 	};
 
-player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Defaults_3"],format [localize "STR_antistasi_journal_entry_text_Default_3",nameInvaders]]];
-player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Defaults_2"],format [localize "STR_antistasi_journal_entry_text_Default_2"]]];
+};
+//Mission Specific stuff, fuck this code.
+switch (gameMode) do {
+	case 1: {
+				player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_gamemode"],format [localize "STR_antistasi_journal_entry_text_gamemode_4",nameOccupants,nameInvaders,nameTeamPlayer]]]
+			};
+	case 2: {
+				player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_gamemode"],format [localize "STR_antistasi_journal_entry_text_gamemode_3",nameOccupants,nameInvaders,nameTeamPlayer]]]
+			};
+	case 3: {
+				player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_gamemode"],format [localize "STR_antistasi_journal_entry_text_gamemode_2",nameOccupants,nameTeamPlayer]]]
+			};
+	case 4: {
+				player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_gamemode"],format [localize "STR_antistasi_journal_entry_text_gamemode_1",nameInvaders,nameTeamPlayer]]]
+			};
+	Default {player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_gamemode"],format [localize "STR_antistasi_journal_entry_text_gamemode_4",nameOccupants,nameInvaders,nameTeamPlayer]]]};
+	};
+
+
+// Default Welcome stuff.
+player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Default_3"],format [localize "STR_antistasi_journal_entry_text_Default_3",nameInvaders]]];
+player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Default_2"],format [localize "STR_antistasi_journal_entry_text_Default_2"]]];
 
 _nameXMiss = if (hasIFA) then {"Armia Krajowa"} else {if (worldName == "Tanoa") then {"Warlords of the Pacific"} else {"Antistasi"}};
-player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Default_1"[],format [localize "STR_antistasi_journal_entry_text_Default_1",_nameXMiss]]];
+player createDiaryRecord ["Diary",[format [localize "STR_antistasi_journal_entry_header_Default_1"],format [localize "STR_antistasi_journal_entry_text_Default_1",_nameXMiss]]];
 
-
+// Always include the Credits. It's important!
 _index =player createDiarySubject ["Credits","Credits"];
 player createDiaryRecord ["Credits",[format [localize "STR_antistasi_journal_entry_header_Credits_3"],format [localize "STR_antistasi_journal_entry_text_Credits_3"]]];
 player createDiaryRecord ["Credits",[format [localize "STR_antistasi_journal_entry_header_Credits_2"],format [localize "STR_antistasi_journal_entry_text_Credits_2"]]];
 player createDiaryRecord ["Credits",[format [localize "STR_antistasi_journal_entry_header_Credits_1"],format [localize "STR_antistasi_journal_entry_text_Credits_1"]]];
-
-}
