@@ -126,7 +126,7 @@
         <English>Check Faction garage</English>
         <French>Examiner le garage de la faction</French>
         <Russian>Проверить Гараж Сопротивления</Russian>
-        <German>Überprüfen Sie die Fraktions Garage</German>
+        <German>Überprüfen die Fraktions Garage</German>
       </Key>
     </Container>
     <Container name="dialog_build_menu">
@@ -242,7 +242,7 @@
         <English>Recruit Mortar</English>
         <French>Recruter un Mortier</French>
         <Russian>Миномётчик</Russian>
-        <German>Rekrutiere Mörser Schütze</German>
+        <German>Rekrutiere Mörser Schützen</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_garrison_spawn_grenadier_text">
         <Original>Recruit Grenadier</Original>
@@ -263,7 +263,7 @@
         <English>Recruit AT</English>
         <French>Recruter un AT</French>
         <Russian>Гранатомётчик</Russian>
-        <German>Rekrutiere Panzerabwehrschützen</German>
+        <German>Rekrutiere Panzerabwehrschütze</German>
       </Key>
     </Container>
     <Container name="dialog_build_minefield">
@@ -351,7 +351,7 @@
         <English>Recruit Engineer</English>
         <French>Recruter un Ingénieur</French>
         <Russian>Инженер</Russian>
-        <German>Rekrutiere Ingenieurin</German>
+        <German>Rekrutiere Ingenieur</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_unit_recruit_explosive_text">
         <Original>Recruit Bomb Specialist</Original>
@@ -372,7 +372,7 @@
         <English>Recruit Marksman</English>
         <French>Recruter un Tireur d'élite</French>
         <Russian>Снайпер</Russian>
-        <German>Rekrutiere Scharfschütze<7German>
+        <German>Rekrutiere Scharfschütze</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_unit_recruit_antitank_text">
         <Original>Recruit Antitank Solider</Original>
@@ -427,7 +427,7 @@
         <English>AntiStasi Community</English>
         <French>La Communauté Officielle d'AntiStasi</French>
         <Russian>Сообщество Antistasi</Russian>
-        <German>Die Offizielle AntiStasi Community</German
+        <German>Die Offizielle AntiStasi Community</German>
       </Key>
       <Key ID="STR_antistasi_credits_generic_overview_text">
         <Original>Build FIA Army from scratch and defeat the AAF and CSAT forces in a whole map Dynamic Mission.</Original>
@@ -448,7 +448,7 @@
         <English>Be a Resistance leader, be a hero.</English>
         <French>Devenez un chef de la résistance, soyez un héros.</French>
         <Russian>Быть Лидером Сопротивления значит быть героем. </Russian>
-        <German>Sei ein Widerstandsanführer, und sei ein Held.</German>
+        <German>Sei ein Widerstandsanführer, und ein Held.</German>
       </Key>
       <Key ID="STR_antistasi_credits_generic_version_text">
         <Original>2.2</Original>
@@ -488,14 +488,14 @@
         <English>Military Vehicle</English>
         <French>Véhicule Militaire</French>
         <Russian>Военная Техника</Russian>
-        <German>Militärfahrzeuge</German
+        <German>Militärfahrzeuge</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_vehicle_purchase_military_tooltip">
         <Original>Wide variety of available faction vehicles</Original>
         <English>Wide variety of available faction vehicles</English>
         <French>Une large variété de véhicules de faction disponibles</French>
         <Russian>Широкий выбор доступной техники вашей стороны</Russian>
-        <German>Große Auswahl an verfügbaren Fraktionsfahrzeugen</German>
+        <German>Auswahl an verfügbaren Fraktionsfahrzeugen</German>
       </Key>
     </Container>
     <Container name="dialog_vehicle_purchase_military">
@@ -504,7 +504,7 @@
         <English>Quadbike</English>
         <French>Quad</French>
         <Russian>Квадроцикл</Russian>
-        <German>Quad-Bike</German
+        <German>Quad-Bike</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_mg_text">
         <Original>Machine Gun</Original>
@@ -641,7 +641,7 @@
         <English>Business and War...</English>
         <French>Les Affaires et la Guerre...</French>
         <Russian>Бизнес и Война ...</Russian>
-        <German>Geschäfft und Krieg...</German>
+        <German>Geschäffte und Krieg...</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_cherna_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -655,7 +655,7 @@
         <English>Armia Krajowa</English>
         <French>Armia Krajowa</French>
         <Russian>Армия Крайова</Russian>
-        <German>Armia Krajowa</German
+        <German>Armia Krajowa</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_cherna_blurb_text">
         <Original>Between the anvil and a steamroller.</Original>
@@ -676,7 +676,7 @@
         <English>Liberation of Malden</English>
         <French>La Libération de Malden</French>
         <Russian>Освобождение Мальдена</Russian>
-        <German>Liberation auf Malden </German>
+        <German>Liberation auf Malden</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_malden_blurb_text">
         <Original>The island is small but packed with enemies. Look out!</Original>
@@ -711,14 +711,14 @@
         <English>Be the resistance leader and so on</English>
         <French>Devenez le Chef de la Résistance et cetera...</French>
         <Russian>Быть лидером сопротивления и т.д.</Russian>
-        <German>Sei der Widerstandsführer und so weiter</German>
+        <German>Sei der Widerstandsanführer und so weiter</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_mapname_text">
         <Original>Battle of Kunduz</Original>
         <English>Battle of Kunduz</English>
         <French>La Bataille de Kanduz</French>
         <Russian>Битва за Кундуз</Russian>
-        <German>Gefechte in Kunduz </German>
+        <German>Gefechte in Kunduz</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_blurb_text">
         <Original>Sand and blood</Original>
@@ -731,7 +731,7 @@
         <Original>Liberation of Tembelan</Original>
         <English>Liberation of Tembelan</English>
         <French>La Libération de Tembelan</French>
-        <German> Liberation auf Tembelan</German>
+        <German>Liberation auf Tembelan</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_tembelan_blurb_text">
         <Original>blurb placeholder</Original>
