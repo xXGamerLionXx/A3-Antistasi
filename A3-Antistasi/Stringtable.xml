@@ -12,7 +12,7 @@
         <Polish />
         <Portuguese />
         <Russian>Загрузить предыдущее сохранение?</Russian>
-        <German> Vorherige Sitzung laden? </German>
+        <German>Vorherige Sitzung laden?</German>
       </Key>
     </Container>
     <Container name="dialog_headquarters">
@@ -21,7 +21,7 @@
         <English>HQ Options: Commander Only</English>
         <French>Options du QG : Commandants Uniquement</French>
         <Russian>Опции Штаба: Только для Командира</Russian>
-        <German> HQ-Optionen: Nur Commander</German>
+        <German>HQ-Optionen: Nur Commander</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_close_text">
         <Original>Close</Original>
