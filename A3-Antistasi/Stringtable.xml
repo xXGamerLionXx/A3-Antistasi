@@ -49,7 +49,7 @@
         <English>Manage Garrisons</English>
         <French>Gérer Garnisons</French>
         <Russian>Построение Обороны</Russian>
-        <German>Verwalten Sie Garnisonen</German>
+        <German>Verwaltung der Garnisonen</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_garrisons_tooltip">
         <Original>Add or remove units to garrisons</Original>
@@ -126,7 +126,7 @@
         <English>Check Faction garage</English>
         <French>Examiner le garage de la faction</French>
         <Russian>Проверить Гараж Сопротивления</Russian>
-        <German>Überprüfen Sie die Faction Garage</German>
+        <German>Überprüfen Sie die Fraktions Garage</German>
       </Key>
     </Container>
     <Container name="dialog_build_menu">
@@ -460,7 +460,7 @@
         <English>Buy Vehicle</English>
         <French>Acheter un véhicule</French>
         <Russian>Купить Технику</Russian>
-        <German>Fahrzeug kauf</German>
+        <German>Fahrzeug kaufen</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_vehicle_purchase_buy_tooltip">
         <Original>Allows you to buy a vehicle</Original>
