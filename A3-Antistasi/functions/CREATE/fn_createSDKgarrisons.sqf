@@ -72,26 +72,28 @@ _staticsX = staticsToSave select {_x distance2D _positionX < _size};
 
 _garrison = [];
 _garrison = _garrison + (garrison getVariable [_markerX,[]]);
+diag_log format ["Spawning in SDK garrison with units : %1", str _garrison];
 _groupX = createGroup teamPlayer;
 _groupEst = createGroup teamPlayer;
 _groupMortar = createGroup teamPlayer;
 {
-_index = _garrison findIf {_x in SDKMil};
-if (_index == -1) exitWith {};
-if (typeOf _x == SDKMortar) then
+	_index = _garrison findIf {_x in SDKMil};
+	if (_index == -1) exitWith {};
+	diag_log format ["Next unit spawning in will have type %1", (_garrison select _index)];
+	if (typeOf _x == SDKMortar) then
 	{
-	_unit = _groupMortar createUnit [(_garrison select _index), _positionX, [], 0, "NONE"];
-	_unit moveInGunner _x;
-	_nul=[_x] execVM "scripts\UPSMON\MON_artillery_add.sqf";//TODO need delete UPSMON link
+		_unit = _groupMortar createUnit [(_garrison select _index), _positionX, [], 0, "NONE"];
+		_unit moveInGunner _x;
+		_nul=[_x] execVM "scripts\UPSMON\MON_artillery_add.sqf";//TODO need delete UPSMON link
 	}
-else
+	else
 	{
-	_unit = _groupEst createUnit [(_garrison select _index), _positionX, [], 0, "NONE"];
-	_unit moveInGunner _x;
+		_unit = _groupEst createUnit [(_garrison select _index), _positionX, [], 0, "NONE"];
+		_unit moveInGunner _x;
 	};
-[_unit,_markerX] call A3A_fnc_FIAinitBases;
-_soldiers pushBack _unit;
-_garrison deleteAT _index;
+	[_unit,_markerX] call A3A_fnc_FIAinitBases;
+	_soldiers pushBack _unit;
+	_garrison deleteAT _index;
 } forEach _staticsX;
 
 if (staticCrewTeamPlayer in _garrison) then
@@ -116,6 +118,7 @@ _countGroup = 0;
 while {(spawner getVariable _markerX != 2) and (_countX < _radiusX)} do
 	{
 	_typeX = _garrison select _countX;
+	diag_log format ["Next unit spawning in will have type %1", _typeX];
 	_unit = _groupX createUnit [_typeX, _positionX, [], 0, "NONE"];
 	if (_typeX in SDKSL) then {_groupX selectLeader _unit};
 	[_unit,_markerX] call A3A_fnc_FIAinitBases;
