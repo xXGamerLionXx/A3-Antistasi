@@ -518,7 +518,7 @@
         <English>Buy Static Machinegun Emplacement</English>
         <French>Acheter un emplacement de mitrailleuse fixe</French>
         <Russian>Купить Станковый Пулемёт</Russian>
-        <German>Kaufe eine feststehende MG-Stellung</German>
+        <German>Kaufe statische MG-Stellung</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_mortar_text">
         <Original>Mortar</Original>
@@ -539,7 +539,7 @@
         <English>Static AA</English>
         <French>DCA fixe</French>
         <Russian>Установка ПВО</Russian>
-        <German>Feststehende Flugabwehrstellung</German>
+        <German>Statische Flugabwehrstellung</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_aa_tooltip">
         <Original>Buy Static Anti-Air emplacement</Original>
@@ -553,7 +553,7 @@
         <English>Static AT</English>
         <French>AT Fixe</French>
         <Russian>Станковый ПТРК</Russian>
-        <German>Feststehende Panzerabwehr</German>
+        <German>Statische Panzerabwehr</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_at_tooltip">
         <Original>Buy Static Anti-Tank emplacement</Original>
@@ -697,14 +697,14 @@
         <English>The Baltic Revolution</English>
         <French>La Révolution Baltique</French>
         <Russian>Балтийская Революция</Russian>
-        <German>Die Balkan-revolution </German>
+        <German>Die Balkan-Revolution</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_livonia_blurb_text">
         <Original>Stuck between two fronts</Original>
         <English>Stuck between two fronts</English>
         <French>Pris entre deux feux</French>
         <Russian>Между двух фронтов</Russian>
-        <German>Zwischen zwei Fronten stecken</German>
+        <German>Zwischen zwei Fronten</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_description_text">
         <Original>Be the resistance leader and so on</Original>
@@ -718,7 +718,7 @@
         <English>Battle of Kunduz</English>
         <French>La Bataille de Kanduz</French>
         <Russian>Битва за Кундуз</Russian>
-        <German>Gefechte in Kunduz</German>
+        <German>Kampf um Kunduz</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_kunduz_blurb_text">
         <Original>Sand and blood</Original>
