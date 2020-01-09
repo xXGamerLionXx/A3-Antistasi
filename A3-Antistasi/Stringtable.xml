@@ -35,14 +35,14 @@
         <English>Grab $100 from Pool</English>
         <French>Prendre 100€ de la cagnotte</French>
         <Russian>Взять 100$ из общака</Russian>
-        <German>Holen Sie sich 100€ aus dem Pool</German>
+        <German>Nehmen Sie sich 100€ aus der Fraktionskasse</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_withdraw_tooltip">
         <Original>Take 100€ from faction pool and add it to your personal account. It will damage your position among the faction in the commander career</Original>
         <English>Take $100 from faction pool and add it to your personal account. It will damage your position among the faction in the commander career</English>
         <French>Prendre 100€ de la cagnotte de la faction pour l'ajouter sur votre compte. Cela va nuire à votre réputation au sein de la faction et ralentir votre progression des rangs.</French>
         <Russian>Перевести 100$ из фонда сопротивления себе на счёт. Это вредит вашей репутации как командира</Russian>
-        <German>Nehmen Sie sich 100€ aus dem Fraktionspool und fügen Sie es Ihrem persönlichen Konto hinzu. Es wird Ihre Position in der Fraktion in der Kommandantenkarriere beschädigen.</German>
+        <German>Nehmen Sie sich 100€ aus der Fraktionskasse und fügen Sie es Ihrem persönlichen Konto hinzu. Es wird Ihre Position in der Fraktion in der Kommandantenkarriere beschädigen.</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_garrisons_text">
         <Original>Manage Garrisons</Original>
@@ -70,7 +70,7 @@
         <English>Maru will join your group. Ammobox must be empty. To rebuild, select the Build action near Maru</English>
         <French>Petros va rejoindre votre groupe. L'Arsenal doit être vide. Pour reconstruire, sélectionnez l'action "Construire" à côté de Petros.</French>
         <Russian>Петрос присоединится к вашей группе. Чтобы построить Штаб, выберите на нём пункт "Построить Штаб". Арсенал должен быть пуст.</Russian>
-        <German>Maru wird sich deiner Gruppe anschließen. Ammobox muss leer sein. Wählen Sie zum erneuten Erstellen die Aktion Erstellen in der Nähe von Maru aus</German>
+        <German>Maru wird sich deiner Gruppe anschließen. Ammobox muss leer sein. Wählen Sie zum erneuten Erstellen die Aktion "Erstellen in der Nähe" von Maru aus</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_members_list_text">
         <Original>Ingame Member List</Original>
@@ -119,14 +119,14 @@
         <English>Garage Access</English>
         <French>Accès au garage</French>
         <Russian>Гараж Сопротивления</Russian>
-        <German>Garage Zugang</German>
+        <German>Garagezugang</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_hq_button_garage_tooltip">
         <Original>Check Faction garage</Original>
         <English>Check Faction garage</English>
         <French>Examiner le garage de la faction</French>
         <Russian>Проверить Гараж Сопротивления</Russian>
-        <German>Überprüfen die Fraktions Garage</German>
+        <German>Überprüfen die Fraktionsgarage</German>
       </Key>
     </Container>
     <Container name="dialog_build_menu">
@@ -135,7 +135,7 @@
         <English>Building - Garrison Options</English>
         <French>Construction - Options de Garnison</French>
         <Russian>Построение Обороны</Russian>
-        <German>Gebäude - Garnisonsoptionen</German>
+        <German>Konstruktion - Garnisonsoptionen</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_build_button_no_text">
         <Original>Back</Original>
@@ -242,7 +242,7 @@
         <English>Recruit Mortar</English>
         <French>Recruter un Mortier</French>
         <Russian>Миномётчик</Russian>
-        <German>Rekrutiere Mörser Schützen</German>
+        <German>Rekrutiere Mörserschütze</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_garrison_spawn_grenadier_text">
         <Original>Recruit Grenadier</Original>
@@ -272,7 +272,7 @@
         <English>Build Minefield</English>
         <French>Construire un Champ de Mines</French>
         <Russian>Минное Поле</Russian>
-        <German>Baue Minenfeld</German>
+        <German>Erstelle Minenfeld</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_minefield_button_anti_personel_text">
         <Original>APERS Mines</Original>
@@ -330,7 +330,7 @@
         <English>Recruit Militiaman</English>
         <French>Recruter un Milicien</French>
         <Russian>Новобранец</Russian>
-        <German>Rekrutiere einen Milizsoldaten</German>
+        <German>Rekrutiere Milizsoldaten</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_unit_recruit_mg_text">
         <Original>Recruit Autorifleman</Original>
@@ -358,7 +358,7 @@
         <English>Recruit Bomb Specialist</English>
         <French>Recruter un Expert en Démolition</French>
         <Russian>Подрывник</Russian>
-        <German>Rekrutiere Bombenexperte</German>
+        <German>Rekrutiere Sprengstoffexperte</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_unit_recruit_grenadier_text">
         <Original>Recruit Grenadier</Original>
@@ -448,7 +448,7 @@
         <English>Be a Resistance leader, be a hero.</English>
         <French>Devenez un chef de la résistance, soyez un héros.</French>
         <Russian>Быть Лидером Сопротивления значит быть героем. </Russian>
-        <German>Sei ein Widerstandsanführer, und ein Held.</German>
+        <German>Sei ein Widerstandsanführer und ein Held.</German>
       </Key>
       <Key ID="STR_antistasi_credits_generic_version_text">
         <Original>2.2</Original>
@@ -518,7 +518,7 @@
         <English>Buy Static Machinegun Emplacement</English>
         <French>Acheter un emplacement de mitrailleuse fixe</French>
         <Russian>Купить Станковый Пулемёт</Russian>
-        <German>Kaufe eine feststehende MGstellung</German>
+        <German>Kaufe eine feststehende MG-Stellung</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_mortar_text">
         <Original>Mortar</Original>
@@ -532,7 +532,7 @@
         <English>Buy Static Mortar Emplacement</English>
         <French>Acheter un emplacement de mortier fixe</French>
         <Russian>Купить Станковый Миномёт</Russian>
-        <German>Kaufe eine feststehende Mörserstellung</German>
+        <German>Kaufe statische Mörserstellung</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_aa_text">
         <Original>Static AA</Original>
@@ -546,7 +546,7 @@
         <English>Buy Static Anti-Air emplacement</English>
         <French>Acheter un emplacement de DCA fixe</French>
         <Russian>Купить Станковую Установку ПВО</Russian>
-        <German>Kaufe eine feststehende Flugabwehrstellung</German>
+        <German>Kaufe statische Flugabwehrstellung</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_s_at_text">
         <Original>Static AT</Original>
@@ -560,7 +560,7 @@
         <English>Buy Static Anti-Tank emplacement</English>
         <French>Acheter un emplacement antichar fixe</French>
         <Russian>Купить Станковую Установку ПТРК</Russian>
-        <German>Kaufe eine festehende Panzerabwehrstellung</German>
+        <German>Kaufe statische Panzerabwehrstellung</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_military_truck_text">
         <Original>Pickup Truck</Original>
@@ -590,7 +590,7 @@
         <English>Buy Civilian Vehicle</English>
         <French>Acheter un Véhicule Civil</French>
         <Russian>Гражданская Техника</Russian>
-        <German>Kaufe ein Zivilis Fahrzeug</German>
+        <German>Kaufe ein ziviles Fahrzeug</German>
       </Key>
       <Key ID="STR_antistasi_dialogs_dialog_vehicle_purchase_civ_offroad_text">
         <Original>Offroad</Original>
@@ -641,7 +641,7 @@
         <English>Business and War...</English>
         <French>Les Affaires et la Guerre...</French>
         <Russian>Бизнес и Война ...</Russian>
-        <German>Geschäffte und Krieg...</German>
+        <German>Business und Krieg...</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_cherna_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -683,7 +683,7 @@
         <English>The island is small but packed with enemies. Look out!</English>
         <French>L'île est petite mais remplie d'ennemis. Attention!</French>
         <Russian>Остров небольшой, но полон врагов. Будь начеку!</Russian>
-        <German>Die Insel ist klein, aber voller Feinde. Achtung!</German>
+        <German>Die Insel ist klein aber voller Feinde. Achtung!</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_livonia_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
@@ -697,7 +697,7 @@
         <English>The Baltic Revolution</English>
         <French>La Révolution Baltique</French>
         <Russian>Балтийская Революция</Russian>
-        <German>Die Balkan Revolution </German>
+        <German>Die Balkan-revolution </German>
       </Key>
       <Key ID="STR_antistasi_mission_info_livonia_blurb_text">
         <Original>Stuck between two fronts</Original>
@@ -731,7 +731,7 @@
         <Original>Liberation of Tembelan</Original>
         <English>Liberation of Tembelan</English>
         <French>La Libération de Tembelan</French>
-        <German>Liberation auf Tembelan</German>
+        <German>Liberation von Tembelan</German>
       </Key>
       <Key ID="STR_antistasi_mission_info_tembelan_blurb_text">
         <Original>blurb placeholder</Original>
